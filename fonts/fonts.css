@@ -1,0 +1,130 @@
+@font-face {
+
+    font-family: 'Montserrat-Medium';
+
+    src: url('montserat/Montserrat-Medium.ttf');
+
+    src: url('montserat/Montserrat-Medium.ttf') format('ttf'),
+
+        url('montserat/Montserrat-Medium.otf') format('otf'),
+
+        url('montserat/Montserrat-Medium.svg') format('svg'),
+
+        url('montserat/Montserrat-Medium.eot') format('eot'),
+
+        url('montserat/Montserrat-Medium.woff') format('woff'),
+
+        url('montserat/Montserrat-Medium.woff2') format('woff2');
+
+        /* font-weight: 500; */
+        font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'Montserrat-Thin';
+
+    src: url('montserat/Montserrat-Thin.ttf');
+
+    src: url('montserat/Montserrat-Thin.ttf') format('ttf'),
+
+        url('montserat/Montserrat-Thin.otf') format('otf'),
+
+        url('montserat/Montserrat-Thin.svg') format('svg'),
+
+        url('montserat/Montserrat-Thin.eot') format('eot'),
+
+        url('montserat/Montserrat-Thin.woff') format('woff'),
+
+        url('montserat/Montserrat-Thin.woff2') format('woff2');
+
+        font-weight: 100;
+        font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'myriad-pro';
+
+    src: url('myriad-pro/MyriadPro-Regular.ttf');
+
+    src: url('myriad-pro/MyriadPro-Regular.ttf') format('ttf'),
+
+        url('myriad-pro/MyriadPro-Regular.otf') format('otf'),
+
+        url('myriad-pro/MyriadPro-Regular.svg') format('svg'),
+
+        url('myriad-pro/MyriadPro-Regular.eot') format('eot'),
+
+        url('myriad-pro/MyriadPro-Regular.woff') format('woff'),
+
+        url('myriad-pro/MyriadPro-Regular.woff2') format('woff2');
+
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'NunitoSans-Regular';
+
+    src: url('nunito-sans/NunitoSans-Regular.ttf');
+
+    src: url('nunito-sans/NunitoSans-Regular.ttf') format('ttf'),
+
+        url('nunito-sans/NunitoSans-Regular.otf') format('otf'),
+
+        url('nunito-sans/NunitoSans-Regular.svg') format('svg'),
+
+        url('nunito-sans/NunitoSans-Regular.eot') format('eot'),
+
+        url('nunito-sans/NunitoSans-Regular.woff') format('woff'),
+
+        url('nunito-sans/NunitoSans-Regular.woff2') format('woff2');
+
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'WorkSans-Regular';
+
+    src: url('work-sans/WorkSans-Regular.ttf');
+
+    src: url('work-sans/WorkSans-Regular.ttf') format('ttf'),
+
+        url('work-sans/WorkSans-Regular.otf') format('otf'),
+
+        url('work-sans/WorkSans-Regular.svg') format('svg'),
+
+        url('work-sans/WorkSans-Regular.eot') format('eot'),
+
+        url('work-sans/WorkSans-Regular.woff') format('woff'),
+
+        url('work-sans/WorkSans-Regular.woff2') format('woff2');
+
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+
+
+
