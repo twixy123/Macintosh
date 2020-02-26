@@ -16,7 +16,7 @@
 
         url('montserat/Montserrat-Medium.woff2') format('woff2');
 
-        /* font-weight: 500; */
+        font-weight: 500;
         font-style: normal;
 
 }
@@ -121,6 +121,30 @@
         url('work-sans/WorkSans-Regular.woff2') format('woff2');
 
         font-weight: 400;
+        font-style: normal;
+
+}
+
+
+
+
+@font-face {
+
+    font-family: 'Roboto-Medium';
+
+    src: url('roboto-medium/Roboto-Medium.ttf');
+
+    src: url('roboto-medium/Roboto-Medium.ttf') format('ttf'),
+
+        url('roboto-medium/Roboto-Medium.svg') format('svg'),
+
+        url('roboto-medium/Roboto-Medium.eot') format('eot'),
+
+        url('roboto-medium/Roboto-Medium.woff') format('woff'),
+
+        url('roboto-medium/Roboto-Medium.woff2') format('woff2');
+
+        font-weight: 500;
         font-style: normal;
 
 }

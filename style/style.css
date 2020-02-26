@@ -13,6 +13,7 @@
 :root {
     --list-green: #1f8b48;
     --btn-and-line-green: #007d2f;
+    --hidden-green:#378b57d9;
 
     --title-black: #1d1d1d;
     --list-black: #191919;
@@ -72,6 +73,9 @@ i {
     max-width: 640px;
     width: 100%;
 }
+.navigation__nav-menu-mini{
+    max-width: 220px;
+}   /* Навигационная панель с тремя линками */
 
 .navigation__link-list {
     text-transform: uppercase;
@@ -233,6 +237,8 @@ i {
     position: absolute;
     right: 110%;
     top: 0;
+} #bur:checked~.navigation__burger-menu-mini{
+    height: 105px;
 }
 
 #bur:checked~.navigation__burger-menu .navigation__burger-link {
@@ -469,6 +475,10 @@ i {
     top: 50%;
     left: 50%;
     transition: .5s all;
+}
+
+.many-images__hidden-mini{
+    background-color: var(--hidden-green);
 }
 
 .many-images__svg {
