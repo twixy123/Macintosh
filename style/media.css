@@ -2,6 +2,7 @@
   .header {
     max-height: 450px;
   }
+
   .navigation__nav-menu {
     display: none;
   }
@@ -13,6 +14,7 @@
   .skills__img {
     display: none;
   }
+
   .skills__prof-skills {
     width: 100%;
     align-items: center;
@@ -25,12 +27,15 @@
   .scale__par {
     text-align: center;
   }
+
   .skills {
     height: auto;
   }
+
   .many-images__block {
     width: 50%;
   }
+
   .many-images__load {
     padding: 20px 0;
   }
@@ -38,26 +43,37 @@
   .video-content_content {
     padding: 20px 0;
   }
+
   .video-content__title {
     font-size: 35px;
     line-height: 70px;
   }
+
   .video-content__par {
     max-width: 550px;
     font-size: 18px;
   }
+
   .video-content__video {
     width: 95%;
   }
+
   .logotips_container {
     padding: 70px 15px 60px;
   }
+
   .footer_container {
     padding: 20px;
   }
+
   .footer__nav {
     margin: 30px auto;
     width: 100%;
+  }
+
+  .skills__par-mini {
+    text-align: center;
+    max-width: 640px;
   }
 }
 
@@ -65,23 +81,27 @@
   i {
     font-size: 42px;
   }
-  #bur:checked ~ .navigation__burger-menu {
+
+  #bur:checked~.navigation__burger-menu {
     flex-wrap: wrap;
     flex-direction: row;
     width: 300px;
     height: 100px;
     top: -30px;
   }
-  #bur:checked ~ .navigation__burger-menu-mini {
+
+  #bur:checked~.navigation__burger-menu-mini {
     height: 50px;
     top: 0;
   }
-  #bur:checked ~ .navigation__burger-menu .navigation__burger-list {
+
+  #bur:checked~.navigation__burger-menu .navigation__burger-list {
     display: flex;
     width: 45%;
     padding: 5px;
   }
-  #bur:checked ~ .navigation__burger-menu .navigation__burger-list:first-child {
+
+  #bur:checked~.navigation__burger-menu .navigation__burger-list:first-child {
     width: 100%;
     padding: 5px 0;
   }
@@ -94,10 +114,12 @@
     padding: 30px 15px;
     flex-wrap: wrap;
   }
+
   .review__block {
     width: 50%;
     margin-bottom: 20px;
   }
+
   .what-made {
     padding-top: 15px;
     padding-bottom: 45px;
@@ -107,24 +129,35 @@
     width: 50%;
     margin-top: 25px;
   }
+
   .logotips__img {
     width: 35%;
     margin-bottom: 35px;
   }
+
   .logotips_container {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 35px 15px 0;
   }
+
+  .form-data__form>input {
+    width: 100%;
+  }
+  .form-data__form>input[type="name"]{
+    margin-right: 0;
+}
 }
 
 @media (max-width: 480px) {
   .header {
     max-height: 400px;
   }
+
   .content-header {
     max-width: 370px;
   }
+
   .content-header__title {
     line-height: 35px;
     margin: 35px 0 20px 0;
@@ -143,15 +176,15 @@
     margin: auto;
   }
 
-  #bur:checked ~ .navigation__burger-menu {
+  #bur:checked~.navigation__burger-menu {
     width: 200px;
   }
 
-  #bur:checked ~ .navigation__burger-menu-mini {
+  #bur:checked~.navigation__burger-menu-mini {
     height: 50px;
     top: 0;
   }
-  
+
 
   .many-images__load {
     font-size: 16px;
@@ -161,12 +194,15 @@
     font-size: 33px;
     line-height: 60px;
   }
+
   .video-content__par {
     max-width: 300px;
   }
+
   .video-content__par {
     line-height: 24px;
   }
+
   .what-made__title {
     display: flex;
     align-items: center;
@@ -179,9 +215,7 @@
     margin-bottom: 20px;
   }
 
-  .form-data__form > input {
-    width: 100%;
-  }
+  
 
   .form-data__text {
     height: 100px;
@@ -196,20 +230,40 @@
     margin-bottom: 15px;
   }
 
-.designer__title{
-  
-}
+  .title_container {
+    padding: 55px 0;
+  }
+
+  .designer__title {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .amelia__title {
+    font-size: 47px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .amelia__par {
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 360px) {
-  #bur:checked ~ .navigation__burger-menu {
+  #bur:checked~.navigation__burger-menu {
     width: 165px;
   }
 
-  #bur:checked ~ .navigation__burger-menu .navigation__burger-link {
+  #bur:checked~.navigation__burger-menu .navigation__burger-link {
     font-size: 10px;
   }
-  #bur:checked ~ .navigation__burger-menu .navigation__burger-list {
+
+  #bur:checked~.navigation__burger-menu .navigation__burger-list {
     padding: 3px;
   }
 
@@ -245,7 +299,7 @@
     text-align: center;
   }
 
-  .what-made__block{
-      width: 100%;
+  .what-made__block {
+    width: 100%;
   }
 }

@@ -3,14 +3,6 @@
     background: var(--btn-and-line-green);
 }
 
-.designer_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 95px 0;
-}
-
 .designer__title{
     font-size: 30px;
     line-height: 66px;

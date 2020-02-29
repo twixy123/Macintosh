@@ -1,0 +1,49 @@
+.amelia{
+    width: 100%;
+    background-color: #323232;
+}
+
+.amelia__title{
+    font-family: var(--Montserrat-Medium);
+    color: white;
+    font-size: 62px;
+    line-height: 78px;
+}
+
+.amelia__par{
+    font-family: var(--NunitoSans-Regular);
+    color: white;
+    font-size: 23px;
+    line-height: 35px;
+    max-width: 650px;
+    text-align: center;
+}
+
+.skills__img-mini{
+    left: 0;
+}
+
+.skills__prof-skills-mini{
+    width: 40%;
+}
+
+.skills__par-mini{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey);
+    margin-bottom: 30px;
+}
+
+.container_skills-mini{
+    justify-content: flex-end;
+
+}
+
+.skills__prof-skills-mini > img{
+    width: max-content;
+    margin-bottom: 15px;
+}
+
+.form-data__title-mini{
+    margin-top: 80px;
+}

@@ -1,0 +1,41 @@
+.form-data_container-mini{
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+.form-data__info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+
+.form-data__form-mini{
+    width: 50%;
+}
+
+.form-data__par-mini{
+    text-align: start;
+    width: 100%;
+}
+
+.form-data__link{
+    width: max-content;
+    display: flex;
+    font-family: var(--myriad-pro);
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.form-data__btn-mini{
+    margin: 30px 0 0 0;
+}
+
+.form-data__text-mini{
+    height: 170px;
+    box-sizing: border-box;
+}
+
