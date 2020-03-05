@@ -618,22 +618,32 @@ i {
 
 .slider {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: var(--btn-and-line-green);
-    padding: 60px 15px;
-    box-sizing: border-box;
+    position: relative;
+    padding: 60px 0;
 }
 
-.slider__block {
-    background: var(--btn-and-line-green);
+.slider__block{
+    position: relative;
+    width: 100%;
+}
+
+.slides {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    z-index: 5;
+}
+.slides.active{
+    z-index: 10;
+    opacity: 1;
 }
 
 .slider__par {
@@ -656,20 +666,30 @@ i {
 }
 
 .slider__dots {
+    width: 100%;
+    height: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 50px;
-    height: 10px;
-    margin-top: 80px;
+    justify-content: center;
+    z-index: 20;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    transform: translateX(0);
 }
 
 .dotted {
-    display: flex;
-    width: 6px;
-    height: 6px;
-    background-color: var(--white);
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background-color: white;
     border-radius: 50%;
+    display: flex;
+    transition: .2s;
+}
+.dotted.active{
+    width: 15px;
+    height: 15px;
 }
 
 .dotted:hover {
