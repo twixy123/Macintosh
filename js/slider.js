@@ -42,5 +42,5 @@ class SLIDER {
 
 
 const slider = new SLIDER({
-    slider: '.slider', 
+    slider: '.slider'
 })
