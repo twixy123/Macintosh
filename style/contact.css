@@ -39,3 +39,12 @@
     box-sizing: border-box;
 }
 
+.map{
+    padding: 100px 0;
+}
+
+.map__el{
+    width: 100%;
+    height: 470px;
+}
+

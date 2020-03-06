@@ -144,9 +144,25 @@
   .form-data__form>input {
     width: 100%;
   }
-  .form-data__form>input[type="name"]{
+
+  .form-data__form>input[type="name"] {
     margin-right: 0;
-}
+  }
+
+  .slider__par {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .slider__author {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 35px;
+  }
+
+  .map__el {
+    height: 370px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -215,7 +231,7 @@
     margin-bottom: 20px;
   }
 
-  
+
 
   .form-data__text {
     height: 100px;
@@ -251,6 +267,14 @@
   .amelia__par {
     font-size: 16px;
     line-height: 28px;
+  }
+
+  .map__el {
+    height: 270px;
+  }
+
+  .map {
+    padding: 50px 0;
   }
 }
 
@@ -301,5 +325,9 @@
 
   .what-made__block {
     width: 100%;
+  }
+
+  .map__el {
+    height: 150px;
   }
 }

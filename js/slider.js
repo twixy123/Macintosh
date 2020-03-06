@@ -6,11 +6,11 @@ class SLIDER {
         this.sliderBlock = this.slider.querySelector('.slider__block') //подключаем блок с слайдами
         this.slides = this.sliderBlock.children //подключаем сами слайды
         this.slidesArray = Array.from(this.slides)
-        this.sliderDot__block = this.slider.querySelector('.slider__dots')
+        this.sliderDot__block = this.getEl('.slider__dots')
         this.dots = this.sliderDot__block.children
         this.dotsArray = Array.from(this.dots) //метод преобразование из  массивоподобного или итерируемого объекта в массив
-        this.next = this.slider.querySelector('.next')
-        this.prev = this.slider.querySelector('.prev')
+        this.next = this.getEl('.next')
+        this.prev = this.getEl('.prev')
 
 
         // какие то значения

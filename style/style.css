@@ -687,17 +687,13 @@ i {
     border-radius: 50%;
     display: flex;
     transition: .2s;
+    cursor: pointer;
 }
 .dotted.active{
-    width: 15px;
-    height: 15px;
+    transform: scale(1.2);
 }
 
-.dotted:hover {
-    cursor: pointer;
-    width: 10px;
-    height: 10px;
-}
+
 
 /* ---------- end slider ---------- */
 
